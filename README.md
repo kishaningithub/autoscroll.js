@@ -7,7 +7,7 @@ Auto Scroller for use in infinite scroll testing
 ```javascript
  // Including the script via console
  var script = document.createElement("script");
- script.src = "https://rawgit.com/kishaningithub/AutoScroll/master/AutoScroll.js";
+ script.src = "https://rawgit.com/kishaningithub/autoscroll.js/master/AutoScroll.js";
  document.body.appendChild(script);
  
  // Doing scroll
