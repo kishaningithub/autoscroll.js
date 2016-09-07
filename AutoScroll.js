@@ -1,4 +1,4 @@
-var Scroll = function(){
+var AutoScroll = function(){
 
     var intervalId;
 
