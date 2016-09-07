@@ -2,11 +2,19 @@
 Auto Scroller for use in infinite scroll testing 
 
 # Usage
-1. Copy and paste contents of https://raw.githubusercontent.com/kishaningithub/AutoScroll/master/AutoScroll.js
-   into the console (chrome/firefox).
-2. Declare scroll object `var scroll = new Scroll();`
-3. Start scrolling `scroll.start({forward: true, speed: 'superfast'});`
-4. Stop scrolling `scroll.stop()`
+1. Open console(chrome/firefox).
+2. Run 
+```javascript
+ // Including the script via console
+ var script = document.createElement("script");
+ script.src = "https://rawgit.com/kishaningithub/AutoScroll/master/AutoScroll.js";
+ document.body.appendChild(script);
+ 
+ // Doing scroll
+ var scroll = new Scroll();
+ scroll.start({forward: true, speed: 'superfast'}); // Will start scrolling
+ scroll.stop(); // Will stop scrolling
+```
 
 # Options
 - forward 
