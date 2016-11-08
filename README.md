@@ -6,14 +6,12 @@ Auto Scroller for use in infinite scroll testing
 - Copy paste contents of [https://raw.githubusercontent.com/kishaningithub/autoscroll.js/master/AutoScroll.js](https://raw.githubusercontent.com/kishaningithub/autoscroll.js/master/AutoScroll.js)
 - Do scrolling
 ```javascript
- AutoScroll.start({forward: true, speed: 'superfast'}); // Will start scrolling
+ AutoScroll.forward({speed: 'superfast'}); // Will start scrolling forward
+ AutoScroll.backward({speed: 'superfast'}); // Will start scrolling backward
  AutoScroll.stop(); // Will stop scrolling
 ```
 
 # Options
-- forward 
-  - true: Forward scrolling
-  - false: Backward scrolling
 
 - speed
  - slow
