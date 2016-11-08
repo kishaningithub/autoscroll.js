@@ -22,6 +22,9 @@ var AutoScroll = (function(){
               case 'extreme'    : interval = 1;
                                   scrollLength = 100;
                                   break;
+              case 'nuclear'    : interval = 1;
+                                  scrollLength = 10000;
+                                  break;
             }
 
             intervalId = setInterval(function(){
