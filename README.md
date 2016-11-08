@@ -19,3 +19,4 @@ Auto Scroller for use in infinite scroll testing
  - fast
  - superfast
  - extreme
+ - nuclear
