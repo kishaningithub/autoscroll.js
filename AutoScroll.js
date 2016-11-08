@@ -4,6 +4,7 @@ var AutoScroll = (function(){
 
     return {
         start: function(options) {
+            this.stop();
             var isForwardScroll = options.forward;
             var speed = options.speed;
             var interval = 1, scrollLength = 1;
@@ -30,6 +31,16 @@ var AutoScroll = (function(){
                 document.body.scrollTop -= scrollLength;
               }
            }, interval);
+        },
+        
+        forward: function(options){
+            options.forward = true;
+            this.start(options);
+        },
+        
+        backward: function(options){
+            options.forward = false;
+            this.start(options);
         },
         
         stop: function(){
